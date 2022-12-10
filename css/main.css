@@ -1,0 +1,12 @@
+/* モバイルファースト? PCファースト? */
+/* とりあえずPCファースト */
+
+.wrapper {
+    width: 100%;
+}
+
+@media screen and (max-width: 520px) {
+    .wrapper {
+        max-width: 520px;
+    }
+}
